@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #28496b;
+}
+
+.container h1,
+.nav-link {
+    color: aliceblue;
+}
+
+.nav .nav-link.active {
+    background-color: #57769b;
+    color: #fff;
+}
+
+.titulo {
+    font-family: 'Alegreya', serif;
+    cursor: default;
+    color: #fff;
+}
+
+.container h1:hover {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: #86a3ca;
+}
+
+.btn,
+#enviar {
+    font-family: 'Alegreya', serif;
+    background-color: #86a3ca;
+    color: aliceblue;
+}
+
+.btn-dark,
+#enviar {
+    background-color: #28496b;
+}
+
+.btn:hover {
+    background-color: #6f8db2;
+    color: #eee;
+}
+
+.navbar-toggler {
+    background-color: #86a3ca;
+}
+
+#sobrehotel,
+#ofertas {
+    background-color: #406083;
+}
+
+#pacotes,
+#contato {
+    background-color: #86a3ca;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.error {
+    color: black;
+    margin-top: 8px;
+    padding: 2px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.form-control.error {
+    background-color: #fff;
+    border: 2px solid red;
+}
